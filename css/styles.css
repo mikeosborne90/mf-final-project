@@ -1,0 +1,11 @@
+.imgBox
+{
+    display: flex;
+}
+
+.jumboImage
+{
+    height:100%;
+    width: 50%;
+    justify-content: center;
+}
