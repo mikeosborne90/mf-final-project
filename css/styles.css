@@ -1,34 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Shadow&display=swap');
 
-.carousel
+/*  Global Section*/
+
+/* End of Global Section */
+
+/* Navbar Section */
+.navbar
 {
-    margin-bottom: 60px;
+    margin-bottom: 0;
+    border: 0px;
 }
 
-.carousel-caption
+.nav li a:hover,
+.navbar-default
 {
-    z-index: 10;
-    padding-bottom: 60px;
+    background-color: transparent;
 }
 
-.carousel-inner .item
+nav.navbar-default
 {
-    width: 100%;
-    height: 600px;
+    position: absolute;
+    top: 100;
+    right: 0;
+    left: 0;
+    z-index: 20;
+
+}
+
+.navbar-header > h1
+{
+    font-family: 'Londrina Shadow', sans-serif;
+    font-size: 6em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+    color: #000;
+}
+/* End of Navbar Section */
+
+/* Jumbotron Section */
+
+.jumbotron
+{
+    background-image: url("/img/crane.JPG");
     background-size: cover;
     background-position: center;
+    height: 450px;
 }
 
-.main_img1
-{
-    background-image: url("../img/crescentmeadow.JPG");
-}
-
-.main_img2
-{
-    background-image: url("../img/restaurant-2.jpg");
-}
-
-.main_img3
-{
-    background-image: url("../img/farm-2.jpg");
-}
+/* End of Jumbotron Section */
