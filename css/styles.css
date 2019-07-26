@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amiri|Tangerine&display=swap');
 
 /*  Global Section*/
 
@@ -26,24 +26,44 @@ nav.navbar-default
     z-index: 20;
 
 }
-
-.navbar-header > h1
-{
-    font-family: 'Londrina Shadow', sans-serif;
-    font-size: 6em;
-    text-shadow: 1px 1px 5px #0a0a0a;
-    color: #000;
-}
 /* End of Navbar Section */
 
 /* Jumbotron Section */
 
 .jumbotron
 {
-    background-image: url("/img/crane.JPG");
+    background-image: url("/img/fs_new.jpg");
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 1000px;
+}
+
+.jumbotron p
+{
+    margin-top: 100px;
+    justify-content: flex-start;
+    margin-left: 10px;
+    background-color: rgba(211, 202, 202, 0.2);
+    height: 100px;
+    font-family: 'Amiri', sans-serif;
+    font-size: 2em;
+    text-shadow: 1px 1px 5px #c4c4cf;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.jumbotron h1
+{
+    font-family: 'Tangerine', sans-serif;
+    font-size: 6em;
+    text-shadow: 1px 1px 5px #090df7;
+    color: #000;
+}
+
+.intro
+{
+    position: absolute;
+    bottom: 200px;
 }
 
 /* End of Jumbotron Section */
