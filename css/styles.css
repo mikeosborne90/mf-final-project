@@ -54,9 +54,9 @@
 
 /* Start of Projects Section */
 
-#projects div
+#projects
 {
-    height: 200px;
+    height: 100%;
     border: 1px solid #000;
     background-color: rgba(17,17,17,0.2);
 }
