@@ -61,4 +61,11 @@
     background-color: rgba(17,17,17,0.2);
 }
 
+.thumbnail > img
+{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+
 /* End of Projects Section */
