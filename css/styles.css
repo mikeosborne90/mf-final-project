@@ -69,3 +69,23 @@
 }
 
 /* End of Projects Section */
+
+/* Start of Contact */
+
+.contact > div
+{
+    height: 400px;
+    border: 1px solid #000;
+}
+
+/* End of Contact */
+
+/* Start of Footer */
+
+footer
+{
+    height: 100%;
+    border: 1px solid #000;
+}
+
+/* End of Footer */
