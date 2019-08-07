@@ -2,13 +2,24 @@
 
 /*  Global Section*/
 
+body
+{
+    background-color: #70959E;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.skyBGC
+{
+    background-color: #70959E;
+}
+
 /* End of Global Section */
 
 /* Navbar Section */
 .nav
 {
     margin-bottom: 0;
-    border: 0px;
     background-color: transparent;
     position: absolute;
     top: 100;
@@ -20,8 +31,20 @@
 .nav a
 {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.55em;
+    font-family: 'Amiri', sans-serif;
+    text-shadow: 1px 1px #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus 
+{
+    color:black;
+    background-color:rgba(251, 227, 167, .9);
+    text-shadow: none;
+}
+
 /* End of Navbar Section */
 
 /* Jumbotron Section */
@@ -32,49 +55,88 @@
     background-size: cover;
     background-position: center;
     height: 1000px;
-    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
     margin-bottom: 0px;
 }
+
 
 .jumbotron h1
 {
     font-family: 'Tangerine', sans-serif;
-    font-size: 6em;
-    text-shadow: 1px 1px 5px #090df7;
+    font-size: 5em;
+    text-shadow: 1px 1px 5px #00314C;
     color: #000;
 }
 
 .intro
 {
+    background-color: rgba(251, 227, 167, .8);
+    border: 1px solid #000;
     position: absolute;
-    bottom: 200px;
+    top: 100px;
+    left: 10px;
+    color: #000;
+}
+
+.intro > ul > li, .intro span
+{
+    font-family: 'Amiri', sans-serif;
 }
 
 /* End of Jumbotron Section */
 
 /* Start of Projects Section */
 
+#projects-section
+{
+    background-color: #FBE3A7;
+    border-bottom: 1px solid #000;
+}
+
 #projects
 {
-    height: 100%;
+    height: 60px;
+    font-family: 'Amiri', sans-serif;
+    color: #000;
+}
+
+#projects-section .thumbnail
+{
     border: 1px solid #000;
-    background-color: rgba(17,17,17,0.2);
+    height: 580px;
 }
 
 .thumbnail > img
 {
     height: 350px;
-    width: 350px;
     object-fit: cover;
+    border: 1px solid #000;
+}
+
+.thumbnail > h4
+{
+    font-size: 1.5em;
+    font-family: 'Amiri', sans-serif;
 }
 
 /* End of Projects Section */
 
 /* Start of Contact */
 
-.contact > div
+#contact
+{
+    font-family: 'Amiri', sans-serif;
+    color: #000;
+}
+
+#contact > div
 {
     height: 400px;
+    border: 1px solid #000;
+}
+
+.thumbnail
+{
     border: 1px solid #000;
 }
 
@@ -84,8 +146,15 @@
 
 footer
 {
-    height: 100%;
-    border: 1px solid #000;
+    height: 60px;
 }
 
 /* End of Footer */
+
+@media (max-width: 768px)
+{
+    body
+    {
+        /* font-size: 12px; */
+    }
+}
